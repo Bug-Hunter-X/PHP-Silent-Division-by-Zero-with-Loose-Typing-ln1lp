@@ -1,0 +1,3 @@
+# PHP Silent Division by Zero
+
+This example demonstrates a potential issue in PHP related to loose typing and division by zero.  The `bar` function is intended to perform floating-point division. However, if the divisor is zero, a warning is generated but not necessarily an exception, leading to potentially unexpected results or silent failures.  This is a common, yet subtle error when migrating from strongly-typed languages.
